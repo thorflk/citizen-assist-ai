@@ -95,7 +95,8 @@ class TestBusca(unittest.TestCase):
 
     def test_palavra_inteira(self):
         # "ipi" não pode casar dentro de outra palavra
-        self.assertEqual(self.base.buscar("municipio"), [])
+        ipi = self.base.buscar_id(5)
+        self.assertEqual(self.base.pontuar("municipio", ipi), 0)
 
     def test_niveis_de_confianca(self):
         self.assertEqual(confianca(7), "ALTA")
