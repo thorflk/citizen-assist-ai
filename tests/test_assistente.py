@@ -111,7 +111,7 @@ class TestBusca(unittest.TestCase):
     def test_categorias(self):
         self.assertEqual(self.base.categorias(),
                          ["Transporte", "Benefícios", "Carro e direção", "Calçadas", "Canais da Prefeitura"])
-        self.assertEqual(len(self.base.por_categoria("Transporte")), 3)
+        self.assertEqual(len(self.base.por_categoria("Transporte")), 5)
 
     def test_minimo_do_enunciado(self):
         self.assertGreaterEqual(len(self.base.orientacoes), 10)

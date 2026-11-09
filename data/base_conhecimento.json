@@ -323,5 +323,65 @@
     "fonte": "https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=2630",
     "verificado_em": "2026-11-09",
     "limitacao": "Não registro a reclamação por você. A Ouvidoria é da Prefeitura de São Paulo: não cuida de INSS, Receita Federal, ANTT ou governo do estado. Reclamações sobre vaga em creche ou consulta médica pedem a identificação de quem reclama."
+  },
+  {
+    "id": 13,
+    "categoria": "Transporte",
+    "titulo": "Reclamar de motorista, cobrador ou fiscal de ônibus (SPTrans)",
+    "palavras_chave": [
+      "reclamar do onibus",
+      "reclamacao da sptrans",
+      "denunciar motorista",
+      "motorista de onibus",
+      "motorista",
+      "cobrador",
+      "tratou mal",
+      "desrespeito",
+      "nao esperou"
+    ],
+    "resposta": "Quem se sentiu desrespeitado ou ameaçado por motorista, cobrador ou fiscal de ônibus na cidade de São Paulo pode denunciar de graça pelo Portal SP156 ou pelo telefone 156. É o canal que a SPTrans indica para sugestões, informações e reclamações, 24 horas. A SPTrans analisa em até 20 dias. Prazo: Até 20 dias. Gratuito.",
+    "documentos": [
+      "Endereço onde aconteceu",
+      "Assunto (motivo da denúncia)",
+      "Data e horário (obrigatórios)",
+      "Cargo: motorista, cobrador ou fiscal",
+      "Linha do ônibus e sentido (o sentido vai no campo \"Descrição\")",
+      "Placa ou prefixo do ônibus (o prefixo é a sequência de números fixada em vários lugares do ônibus)",
+      "Relato detalhado do que aconteceu, no campo \"Descrição\"",
+      "Opcional: o número do Bilhete Único, que ajuda a SPTrans a analisar pelo sistema interno"
+    ],
+    "onde": "Pelo Portal SP156 (serviço \"Ônibus - Denunciar motorista, cobrador ou fiscal por atitude inadequada\") ou pelo telefone 156, 24 horas. Link: https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=976",
+    "fonte": "https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=976",
+    "verificado_em": "2026-11-09",
+    "limitacao": "Não registro a denúncia por você. Quem analisa é a SPTrans. Este serviço trata da conduta de motorista, cobrador ou fiscal; o SP156 tem outros serviços para ônibus quebrado, manutenção do veículo e demora na linha. O Atende+ tem canais próprios de reclamação no SP156."
+  },
+  {
+    "id": 14,
+    "categoria": "Transporte",
+    "titulo": "Recorrer à Ouvidoria da SPTrans quando a reclamação não foi resolvida",
+    "palavras_chave": [
+      "ouvidoria da sptrans",
+      "ouvidoria sptrans",
+      "email da sptrans",
+      "e mail da sptrans",
+      "sptrans nao respondeu",
+      "sptrans nao resolveu",
+      "nao resolveram",
+      "reclamei",
+      "recorrer da sptrans",
+      "segunda instancia"
+    ],
+    "resposta": "Segunda instância da SPTrans: só analisa casos já registrados antes na Central 156, no site de atendimento do Bilhete Único ou no do Atende+, que não foram resolvidos no prazo ou tiveram resposta insatisfatória. O pedido é por e-mail, gratuito, e a resposta vem em até 30 dias, prorrogáveis por mais 30. Prazo: Até 30 dias, prorrogáveis por mais 30. Gratuito.",
+    "documentos": [
+      "Número do protocolo da Central 156 (ou do site do Bilhete Único ou do Atende+)",
+      "Assunto e descrição da solicitação",
+      "Ocorrência com ônibus: data e horário, linha e sentido, prefixo (5 números fixados em vários lugares do ônibus) e local",
+      "Bilhete Único: a Ouvidoria pede nome completo, RG, CPF, data da solicitação ou número do bilhete e telefone",
+      "Atende+: nome completo da pessoa atendida e número da credencial"
+    ],
+    "onde": "Por e-mail, para ouvidoria@sptrans.com.br. Link: https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?conteudo=4716",
+    "fonte": "https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?conteudo=4716",
+    "verificado_em": "2026-11-09",
+    "limitacao": "Não mando o e-mail por você nem vejo o seu processo. A Ouvidoria da SPTrans só atua em segunda instância: casos que não passaram antes pelo 156, pelo site do Bilhete Único ou pelo do Atende+ não são analisados."
   }
 ]

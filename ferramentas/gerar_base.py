@@ -48,6 +48,12 @@ plano = [
     ("ouvidoria-geral-municipio", "Canais da Prefeitura", "Reclamar na Ouvidoria Geral do Município",
      ["ouvidoria", "reclamar", "reclamar da prefeitura", "reclamacao", "finalizado", "prazo vencido",
       "mal atendido", "nao resolveram", "nao fez o servico", "sem resolver"]),
+    ("reclamacao-onibus-sptrans", "Transporte", "Reclamar de motorista, cobrador ou fiscal de ônibus (SPTrans)",
+     ["reclamar do onibus", "reclamacao da sptrans", "denunciar motorista", "motorista de onibus", "motorista",
+      "cobrador", "tratou mal", "desrespeito", "nao esperou"]),
+    ("ouvidoria-sptrans", "Transporte", "Recorrer à Ouvidoria da SPTrans quando a reclamação não foi resolvida",
+     ["ouvidoria da sptrans", "ouvidoria sptrans", "email da sptrans", "e mail da sptrans", "sptrans nao respondeu",
+      "sptrans nao resolveu", "nao resolveram", "reclamei", "recorrer da sptrans", "segunda instancia"]),
 ]
 
 saida = []
