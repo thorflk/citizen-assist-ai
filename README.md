@@ -1,6 +1,6 @@
 # Mapiii no terminal · Citizen Assist AI
 
-Assistente em Python, executado no terminal, que orienta **pessoas com deficiência e suas famílias em São Paulo**, começando por quem usa cadeira de rodas, sobre direitos e serviços de transporte, benefícios e compra de carro. Toda resposta mostra a fonte oficial, a data em que a equipe conferiu a informação e o aviso de que **este assistente não é um canal oficial**.
+Assistente em Python, executado no terminal, que orienta **pessoas com deficiência e suas famílias em São Paulo**, começando por quem usa cadeira de rodas, sobre direitos e serviços de transporte, benefícios, carro e direção, calçadas e canais da Prefeitura (12 orientações em 5 categorias). Toda resposta mostra a fonte oficial, a data em que a equipe conferiu a informação e o aviso de que **este assistente não é um canal oficial**.
 
 Global Solution 2026.2 (CitizenTech), disciplina **Pensamento Computacional e Automação com Python**, turma 1CC, FIAP. É a versão em Python do nosso projeto da GS, o **Mapiii · o mapa dos seus direitos** ([repositório](https://github.com/GabrielRoma0/mapiii-assistente)).
 
@@ -30,7 +30,7 @@ Precisa do **Python 3.8 ou mais novo**. Não usa nenhuma biblioteca externa.
 python main.py
 ```
 
-Testes automáticos (20 testes, também sem bibliotecas externas):
+Testes automáticos (21 testes, também sem bibliotecas externas):
 
 ```bash
 python -m unittest discover tests
@@ -50,6 +50,8 @@ citizen-assist-ai/
     historico.json         atendimentos registrados (criado ao usar)
     avaliacoes.json        notas de facilidade de 1 a 5 (criado ao sair)
     atendimentos.csv       exportação do histórico (opção 4 do menu)
+  ferramentas/
+    gerar_base.py          converte as fichas do Mapiii para a base deste assistente
   tests/
     test_assistente.py     testes automáticos
 ```
@@ -115,20 +117,31 @@ Indicadores (opção 3 do menu): resposta encontrada (%), taxa de acerto (% de a
 
 ## Integração com outras disciplinas
 
-- **Mapiii (projeto da GS):** a base de conhecimento vem das fichas que a dupla conferiu para o Mapiii, nas mesmas fontes oficiais e com as mesmas datas.
+- **Mapiii (projeto da GS):** a base de conhecimento vem das fichas que a dupla conferiu para o Mapiii, nas mesmas fontes oficiais e com as mesmas datas. O script `ferramentas/gerar_base.py` converte o `data/kb.json` do Mapiii para o formato desta disciplina (os textos vêm das fichas; título, categoria e palavras-chave são escritos no script). Com as 44 perguntas de exemplo do Mapiii, a busca acerta 44.
 - **Computer Science:** _(a preencher)_ opção "Descobrir se posso ter direito", que usa a expressão booleana simplificada por mapa de Karnaugh no trabalho de Computer Science.
 
 A busca por pontuação continua sendo o centro do assistente, como pede o enunciado.
 
 ## Fontes consultadas
 
-| Orientação | Fonte | Conferida em |
+Todas conferidas pela dupla em 09/11/2026, nas páginas oficiais:
+
+| Categoria | Orientação | Fonte |
 |---|---|---|
-| Bilhete Único Especial da Pessoa com Deficiência | https://bilheteunico.sptrans.com.br/especial/pessoa-com-deficiencia/ | 09/11/2026 |
-| Atende+ | https://www.sptrans.com.br/media/1392/regulamento_atende-nov_17.pdf | 09/11/2026 |
-| Passe Livre Interestadual | https://www.gov.br/pt-br/servicos/obter-passe-livre-interestadual-digital | 09/11/2026 |
-| BPC para pessoa com deficiência | https://www.gov.br/inss/pt-br/direitos-e-deveres/beneficios-assistenciais/beneficio-assistencial-a-pessoa-com-deficiencia-bpc-loas | 09/11/2026 |
-| Isenção de IPI e IOF na compra do carro | https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/isencao-para-compra-de-carro | 09/11/2026 |
+| Transporte | Bilhete Único Especial da Pessoa com Deficiência | https://bilheteunico.sptrans.com.br/especial/pessoa-com-deficiencia/ |
+| Transporte | Atende+ | https://www.sptrans.com.br/media/1392/regulamento_atende-nov_17.pdf |
+| Transporte | Passe Livre Interestadual | https://www.gov.br/pt-br/servicos/obter-passe-livre-interestadual-digital |
+| Benefícios | BPC para pessoa com deficiência | https://www.gov.br/inss/pt-br/direitos-e-deveres/beneficios-assistenciais/beneficio-assistencial-a-pessoa-com-deficiencia-bpc-loas |
+| Carro e direção | Isenção de IPI e IOF na compra do carro | https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/isencao-para-compra-de-carro |
+| Carro e direção | Cartão DeFis (vaga especial) | https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=3314 |
+| Carro e direção | Renovar a CNH da pessoa com deficiência | https://www.detran.sp.gov.br/detransp/pb/servico/habilitacao/renovar_cnh_para_pessoa_com_deficiencia_pcd |
+| Calçadas | Conserto de calçada pública | https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=931 |
+| Calçadas | Denúncia de calçada particular | https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=906 |
+| Calçadas | Obstáculo na calçada | https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=2634 |
+| Canais da Prefeitura | Central 156 | https://sp156.prefeitura.sp.gov.br/portal/outros-canais-de-atendimento |
+| Canais da Prefeitura | Ouvidoria Geral do Município | https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=2630 |
+
+Os comprovantes de cada fonte (texto baixado ou prints) ficam no repositório do Mapiii, em `docs/fontes/`.
 
 ## Teste com usuários
 
@@ -153,6 +166,7 @@ _(a preencher depois do teste: pelo menos 3 pessoas de fora da equipe e 10 atend
 - Só responde com o que está na base. Não entende frases que não usem nenhuma palavra-chave ou palavra do título.
 - Não vê pedidos, não decide se a pessoa tem direito e não substitui SPTrans, INSS, ANTT ou Receita Federal.
 - As informações valem na data de verificação e podem mudar. A base cobre só a cidade de São Paulo e direitos federais.
+- A busca por palavras-chave tem empates em perguntas genéricas (ex.: "reclamar da Prefeitura" pode ser Central 156 ou Ouvidoria); por isso o assistente oferece alternativas.
 - A regra de dados pessoais conta todos os dígitos da pergunta: "lei 8.899/1994" tem 8 dígitos e também é recusada.
 - A nota de facilidade é por sessão, não por atendimento.
 

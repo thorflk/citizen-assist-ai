@@ -108,8 +108,13 @@ class TestBusca(unittest.TestCase):
         self.assertEqual(self.base.buscar("previsão do tempo amanhã"), [])
 
     def test_categorias(self):
-        self.assertEqual(self.base.categorias(), ["Transporte", "Benefícios", "Carro e direção"])
+        self.assertEqual(self.base.categorias(),
+                         ["Transporte", "Benefícios", "Carro e direção", "Calçadas", "Canais da Prefeitura"])
         self.assertEqual(len(self.base.por_categoria("Transporte")), 3)
+
+    def test_minimo_do_enunciado(self):
+        self.assertGreaterEqual(len(self.base.orientacoes), 10)
+        self.assertGreaterEqual(len(self.base.categorias()), 3)
 
 
 class TestDadosPessoais(unittest.TestCase):

@@ -117,7 +117,6 @@
       "iof",
       "comprar carro",
       "compra de carro",
-      "carro adaptado",
       "desconto no carro",
       "sisen",
       "receita federal"
@@ -134,5 +133,195 @@
     "fonte": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/isencao-para-compra-de-carro",
     "verificado_em": "2026-11-09",
     "limitacao": "Não vejo o seu pedido nem decido por você. Quem analisa é a Receita Federal, pelas Leis 8.989/1995 (IPI) e 8.383/1991 (IOF). Visão monocular sozinha não dá isenção de IPI. Esta ficha não trata do IPVA nem do ICMS, que são do estado."
+  },
+  {
+    "id": 6,
+    "categoria": "Carro e direção",
+    "titulo": "Pedir o Cartão DeFis para estacionar em vaga especial",
+    "palavras_chave": [
+      "defis",
+      "cartao defis",
+      "vaga especial",
+      "vaga de deficiente",
+      "estacionar",
+      "estacionamento",
+      "cartao de estacionamento",
+      "zona azul"
+    ],
+    "resposta": "Autorização gratuita da Prefeitura para estacionar nas vagas com o Símbolo Internacional de Acesso, válida em todo o país. É para quem mora na cidade de São Paulo e tem deficiência que compromete a mobilidade, de forma permanente ou temporária. O pedido é feito pelo Portal SP156, e o cartão é impresso em casa, numa folha A4. Prazo: Até 15 dias. O serviço é gratuito.",
+    "documentos": [
+      "RG, com data de expedição e órgão emissor",
+      "CPF",
+      "Comprovante de residência na cidade de São Paulo, do mês atual ou do anterior, em nome de quem pede ou do cônjuge (cópia simples ou digitalizado)",
+      "Se o comprovante estiver em nome do cônjuge: certidão de casamento",
+      "Se o comprovante estiver em nome do responsável por menor de idade ou por pessoa com deficiência intelectual: documento de guarda ou de curatela/interdição",
+      "Documento de identidade oficial com foto e assinatura",
+      "Atestado médico da deficiência temporária com redução da mobilidade, emitido há no máximo 3 meses, ou laudo da deficiência permanente"
+    ],
+    "onde": "Pelo Portal SP156, sem sair de casa. Também dá para pedir com apoio de um atendente do Descomplica Digital ou numa Praça de Atendimento das Subprefeituras, com agendamento pelo telefone 156. Link: https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=3314",
+    "fonte": "https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=3314",
+    "verificado_em": "2026-11-09",
+    "limitacao": "Não vejo o seu pedido nem decido por você. Quem analisa é a Prefeitura (Secretaria Municipal de Mobilidade e Transporte e CET). Só uma solicitação por CPF. Nas vagas especiais de Zona Azul, além do DeFis é preciso usar o Cartão Azul Digital (CAD). A validade do cartão não está nesta ficha: confira no SP156."
+  },
+  {
+    "id": 7,
+    "categoria": "Carro e direção",
+    "titulo": "Renovar a CNH (carteira de motorista) da pessoa com deficiência",
+    "palavras_chave": [
+      "cnh",
+      "renovar cnh",
+      "renovacao da cnh",
+      "carteira de motorista",
+      "habilitacao",
+      "detran",
+      "junta medica especial",
+      "exame pratico",
+      "carro adaptado"
+    ],
+    "resposta": "A renovação da CNH da pessoa com deficiência ou mobilidade reduzida segue os mesmos passos da CNH comum, com exames específicos conforme o caso. É feita presencialmente, com agendamento, numa unidade do Detran-SP ou num Poupatempo. Se o exame médico pedir para incluir, mudar ou tirar restrições médicas (de \"C\" a \"S\"), a pessoa passa por uma Junta Médica Especial e por um novo exame prático, que pode ser feito em carro adaptado próprio. Prazo: Depois da aprovação, a CNH Digital fica disponível no aplicativo CNH do Brasil em até 24 horas. A CNH física chega em até 3 dias úteis na capital e 4 no interior, contados da criação do código de rastreio dos Correios.",
+    "documentos": [
+      "CNH original (impressa ou digital), com foto e em situação regular: não pode estar suspensa, cassada ou com impedimento ativo",
+      "Comprovante de pagamento da taxa de emissão da CNH, se não constar no sistema",
+      "Se usar medicação controlada: laudo médico",
+      "Se for fazer o exame prático em carro adaptado próprio ou de terceiros: documentos do veículo e licenciamento (CRLV)",
+      "Categorias C, D ou E: exame toxicológico válido",
+      "Se mudar dados: RG atualizado (nome, sobrenome ou filiação), certidão da Receita Federal (número do CPF) ou certidão de nascimento ou casamento (filiação afetiva)"
+    ],
+    "onde": "Presencialmente, com agendamento prévio, na unidade do Detran-SP da região onde a CNH está registrada ou num posto Poupatempo. Quem pede é o próprio motorista. Link: https://www.detran.sp.gov.br/detransp/pb/servico/habilitacao/renovar_cnh_para_pessoa_com_deficiencia_pcd?id=carta_de_servico_renovar_cnh_para_pessoa_com_deficiencia_pcd",
+    "fonte": "https://www.detran.sp.gov.br/detransp/pb/servico/habilitacao/renovar_cnh_para_pessoa_com_deficiencia_pcd?id=carta_de_servico_renovar_cnh_para_pessoa_com_deficiencia_pcd",
+    "verificado_em": "2026-11-09",
+    "limitacao": "Não vejo a sua CNH nem decido por você. Quem analisa é o Detran-SP, com o médico credenciado e a Junta Médica Especial. Esta ficha trata só da renovação, não da primeira habilitação. Valores na página em 09/11/2026: exame médico R$ 90,00, avaliação psicológica R$ 90,00, Junta Médica Especial R$ 270,00, exame prático R$ 52,83 e CNH física R$ 137,79 com entrega. Confira no Detran-SP antes de pagar."
+  },
+  {
+    "id": 8,
+    "categoria": "Calçadas",
+    "titulo": "Pedir conserto de calçada pública (praças e avenidas)",
+    "palavras_chave": [
+      "calcada publica",
+      "consertar calcada",
+      "conserto de calcada",
+      "arrumar calcada",
+      "calcada quebrada",
+      "buraco na calcada",
+      "arrumar a calcada",
+      "consertar a calcada",
+      "praca",
+      "avenida"
+    ],
+    "resposta": "A Subprefeitura conserta calçadas de praças e de grandes avenidas com canteiros, onde não há imóveis. Qualquer pessoa pode pedir, de graça, pelo SP156, pela Central 156 ou presencialmente. Calçada em frente a casa, prédio ou loja é particular e tem outro caminho. Prazo: Até 120 dias. O serviço é gratuito.",
+    "documentos": [
+      "Endereço completo da calçada",
+      "Um ponto de referência",
+      "Se quem pede tem alguma deficiência ligada ao problema da calçada",
+      "Se há obstáculos para a acessibilidade, descritos no campo \"Descrição\""
+    ],
+    "onde": "Portal SP156, Central 156, Praças de Atendimento das Subprefeituras ou Descomplica SP (segunda a sexta, das 8h às 17h). Link: https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=931",
+    "fonte": "https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=931",
+    "verificado_em": "2026-11-09",
+    "limitacao": "Não vejo o seu pedido nem garanto a obra. Quem executa é a Subprefeitura (Secretaria Municipal das Subprefeituras). Calçada de área privada é responsabilidade do dono do imóvel. Tampa de poço de concessionária na calçada não entra aqui: é preciso chamar a própria concessionária."
+  },
+  {
+    "id": 9,
+    "categoria": "Calçadas",
+    "titulo": "Denunciar calçada particular danificada ou inexistente",
+    "palavras_chave": [
+      "calcada particular",
+      "denunciar calcada",
+      "calcada danificada",
+      "calcada inexistente",
+      "sem calcada",
+      "degrau na calcada",
+      "calcada que nao existe",
+      "nao tem calcada",
+      "vizinho",
+      "dono do imovel"
+    ],
+    "resposta": "Quando a calçada em frente a um imóvel tem buracos, inclinações, degraus ou obstáculos, ou nem existe, qualquer pessoa pode denunciar de graça pelo SP156. O fiscal da Subprefeitura vistoria e, se precisar, multa e notifica o dono do imóvel para arrumar em 60 dias. Prazo: Até 60 dias. O serviço é gratuito.",
+    "documentos": [
+      "Endereço do imóvel. Sem número, use o número mais próximo e explique a referência no campo \"Descrição\"",
+      "O tipo de problema da calçada, no campo \"Descrição\""
+    ],
+    "onde": "Portal SP156, Central 156, Praças de Atendimento das Subprefeituras ou Descomplica SP (segunda a sexta, das 8h às 17h). Link: https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=906",
+    "fonte": "https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=906",
+    "verificado_em": "2026-11-09",
+    "limitacao": "Não vejo o seu pedido nem garanto o conserto. Quem fiscaliza é a Subprefeitura (Secretaria Municipal das Subprefeituras); quem arruma é o dono do imóvel. Calçada em frente a prédio público também é particular: o próprio órgão é o responsável."
+  },
+  {
+    "id": 10,
+    "categoria": "Calçadas",
+    "titulo": "Pedir fiscalização de obstáculo na calçada",
+    "palavras_chave": [
+      "obstaculo",
+      "obstaculo na calcada",
+      "vaso na calcada",
+      "barra de ferro",
+      "barras de ferro",
+      "corrente na calcada",
+      "vaso",
+      "bloqueando a calcada"
+    ],
+    "resposta": "Quando vasos, barras de ferro ou outros obstáculos atrapalham a passagem na calçada, qualquer pessoa pode pedir a fiscalização pelo SP156, sem custo. O fiscal da Subprefeitura notifica o dono do imóvel para tirar o obstáculo em 60 dias. Prazo: Até 60 dias. Não há taxa.",
+    "documentos": [
+      "Endereço. Sem número, indique o número mais próximo e a referência no campo \"Descrição\" (por exemplo, \"entre os números 00 e 08\")",
+      "O que está atrapalhando a acessibilidade, no campo \"Descrição\""
+    ],
+    "onde": "Portal SP156, Central 156, Praças de Atendimento das Subprefeituras ou Descomplica SP (segunda a sexta, das 8h às 17h). Link: https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=2634",
+    "fonte": "https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=2634",
+    "verificado_em": "2026-11-09",
+    "limitacao": "Não vejo o seu pedido nem garanto a remoção. Quem fiscaliza é a Subprefeitura (Secretaria Municipal das Subprefeituras). Buracos, degraus e calçada inexistente têm a ficha própria da calçada particular."
+  },
+  {
+    "id": 11,
+    "categoria": "Canais da Prefeitura",
+    "titulo": "Falar com a Central 156 da Prefeitura de São Paulo",
+    "palavras_chave": [
+      "156",
+      "central 156",
+      "sp156",
+      "telefone da prefeitura",
+      "falar com a prefeitura",
+      "atendimento da prefeitura",
+      "falo com a prefeitura",
+      "servico da prefeitura",
+      "aplicativo sp156",
+      "descomplica"
+    ],
+    "resposta": "Canal oficial da Prefeitura para pedidos, reclamações e dúvidas sobre a cidade de São Paulo. Atende 24 horas pelo telefone 156, e também pelo Portal SP156, pelo aplicativo SP156 e presencialmente no Descomplica SP e nas Subprefeituras. Prazo: Depende do serviço pedido. Cada serviço do Portal SP156 mostra o seu prazo máximo.",
+    "documentos": [
+      "Para acompanhar um pedido: o número de protocolo",
+      "Para abrir pedidos no Portal SP156: login do SP156 ou conta gov.br (alguns serviços aceitam pedido anônimo)"
+    ],
+    "onde": "Na cidade de São Paulo, ligue 156 (24 horas). Fora da cidade, 0800-011-0156, só de telefone fixo da Grande São Paulo. Também pelo Portal SP156, pelo aplicativo SP156 (Android e iOS) e nas unidades do Descomplica SP. Link: https://sp156.prefeitura.sp.gov.br/portal/outros-canais-de-atendimento",
+    "fonte": "https://sp156.prefeitura.sp.gov.br/portal/outros-canais-de-atendimento",
+    "verificado_em": "2026-11-09",
+    "limitacao": "Não faço o pedido por você nem vejo os seus protocolos. Assuntos do governo do estado ou federal (INSS, Receita, ANTT) não são da Central 156. Em emergência, ligue 192 (SAMU) ou 193 (Bombeiros)."
+  },
+  {
+    "id": 12,
+    "categoria": "Canais da Prefeitura",
+    "titulo": "Reclamar na Ouvidoria Geral do Município",
+    "palavras_chave": [
+      "ouvidoria",
+      "reclamar",
+      "reclamar da prefeitura",
+      "reclamacao",
+      "finalizado",
+      "prazo vencido",
+      "mal atendido",
+      "nao resolveram",
+      "nao fez o servico",
+      "sem resolver"
+    ],
+    "resposta": "Segunda instância para reclamar de serviço da Prefeitura de São Paulo: quando não conseguiu pedir, quando o pedido foi negado ou finalizado sem o serviço feito, quando o prazo venceu ou quando foi mal atendido. É gratuito, e a resposta vem em até 30 dias, prorrogáveis por mais 30. Prazo: Até 30 dias, prorrogáveis por mais 30. Gratuito.",
+    "documentos": [
+      "Número de protocolo do pedido feito antes nos canais SP156, se a reclamação for sobre ele",
+      "Nome do órgão envolvido, quando souber",
+      "Relato detalhado: serviço pedido, local, data e o que aconteceu",
+      "Dá para pedir sigilo dos seus dados: só a Ouvidoria terá acesso a eles"
+    ],
+    "onde": "Portal SP156 (serviço \"Reclamação\"), Central 156, Praças de Atendimento das Subprefeituras, Descomplica SP, posto da Ouvidoria (Rua Dr. Falcão Filho, 69, Sé, de segunda a sexta, das 9h às 17h) ou carta para Rua Líbero Badaró, 293, 19º andar, Centro, CEP 01009-000. Link: https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=2630",
+    "fonte": "https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=2630",
+    "verificado_em": "2026-11-09",
+    "limitacao": "Não registro a reclamação por você. A Ouvidoria é da Prefeitura de São Paulo: não cuida de INSS, Receita Federal, ANTT ou governo do estado. Reclamações sobre vaga em creche ou consulta médica pedem a identificação de quem reclama."
   }
 ]
