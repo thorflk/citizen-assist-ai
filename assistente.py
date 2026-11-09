@@ -6,6 +6,7 @@ import os
 import time
 from datetime import datetime
 
+import passe_livre
 from base_conhecimento import confianca
 from orientacao import AVISO_OFICIAL
 
@@ -122,8 +123,9 @@ class Assistente:
             print("3 - Ver indicadores de atendimento")
             print("4 - Exportar atendimentos para CSV")
             print("5 - Sobre, fontes e limitações")
+            print("6 - Posso pedir o Passe Livre Interestadual? (4 perguntas de sim ou não)")
             print("0 - Sair")
-            opcao = ler_opcao("Escolha uma opção: ", 0, 5)
+            opcao = ler_opcao("Escolha uma opção: ", 0, 6)
             if opcao == 1:
                 self.perguntar()
             elif opcao == 2:
@@ -134,6 +136,8 @@ class Assistente:
                 self.exportar_csv()
             elif opcao == 5:
                 self.sobre()
+            elif opcao == 6:
+                passe_livre.menu()  # módulo de Computer Science (não guarda as respostas)
             else:
                 self.encerrar()
                 return

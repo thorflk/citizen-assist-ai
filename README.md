@@ -30,10 +30,16 @@ Precisa do **Python 3.8 ou mais novo**. Não usa nenhuma biblioteca externa.
 python main.py
 ```
 
-Testes automáticos (21 testes, também sem bibliotecas externas):
+Testes automáticos (34 testes, também sem bibliotecas externas):
 
 ```bash
 python -m unittest discover tests
+```
+
+Módulo de Computer Science sozinho (também está na opção 6 do menu):
+
+```bash
+python passe_livre.py
 ```
 
 ## Estrutura
@@ -45,6 +51,7 @@ citizen-assist-ai/
   orientacao.py            classe Orientacao (um registro do JSON)
   base_conhecimento.py     classe BaseConhecimento (carregar, categorias, busca)
   assistente.py            classe Assistente (atendimento, histórico, indicadores, CSV)
+  passe_livre.py           módulo de Computer Science: "Posso pedir o Passe Livre?" (lógica booleana)
   data/
     base_conhecimento.json orientações conferidas pela equipe
     historico.json         atendimentos registrados (criado ao usar)
@@ -53,7 +60,8 @@ citizen-assist-ai/
   ferramentas/
     gerar_base.py          converte as fichas do Mapiii para a base deste assistente
   tests/
-    test_assistente.py     testes automáticos
+    test_assistente.py     testes automáticos do assistente
+    test_passe_livre.py    testes do módulo de Computer Science (as 16 combinações)
 ```
 
 ### Classes e composição
@@ -118,7 +126,7 @@ Indicadores (opção 3 do menu): resposta encontrada (%), taxa de acerto (% de a
 ## Integração com outras disciplinas
 
 - **Mapiii (projeto da GS):** a base de conhecimento vem das fichas que a dupla conferiu para o Mapiii, nas mesmas fontes oficiais e com as mesmas datas. O script `ferramentas/gerar_base.py` converte o `data/kb.json` do Mapiii para o formato desta disciplina (os textos vêm das fichas; título, categoria e palavras-chave são escritos no script). Com as 51 perguntas de exemplo do Mapiii, a busca acerta 51. Esse número mede só a base com as perguntas da própria equipe; o número honesto vem do teste com usuários.
-- **Computer Science:** _(a preencher)_ opção "Descobrir se posso ter direito", que usa a expressão booleana simplificada por mapa de Karnaugh no trabalho de Computer Science.
+- **Computer Science:** a opção 6 do menu, "Posso pedir o Passe Livre Interestadual?", faz 4 perguntas de sim ou não (A = recebe o BPC, B = está no CadÚnico com renda de até 1 salário mínimo por pessoa, C = consta no Cadastro-Inclusão, D = tem o atestado registrado) e usa a expressão **S = A + BC + BD**, que a dupla obteve à mão por álgebra booleana e mapa de Karnaugh. Quando S = 0, explica o que falta usando a forma de De Morgan S' = A'(B' + C'D'). O módulo fica em `passe_livre.py`, roda sozinho (`python passe_livre.py`), não guarda as respostas e tem testes próprios, que comparam a tabela-verdade, a regra original, a expressão canônica e a simplificada nas 16 combinações.
 
 A busca por pontuação continua sendo o centro do assistente, como pede o enunciado.
 
