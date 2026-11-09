@@ -30,7 +30,7 @@ Precisa do **Python 3.8 ou mais novo**. Não usa nenhuma biblioteca externa.
 python main.py
 ```
 
-Testes automáticos (34 testes, também sem bibliotecas externas):
+Testes automáticos (35 testes, também sem bibliotecas externas):
 
 ```bash
 python -m unittest discover tests
@@ -97,7 +97,7 @@ A pergunta, as palavras-chave e o título são comparados com `normalizar()`: mi
 | 3 a 5 | Confiança **MÉDIA** |
 | menos de 3 | "Não encontrei": sugere outras palavras e as categorias |
 
-`buscar()` devolve uma lista de tuplas `(pontos, orientacao)` da maior para a menor. O assistente mostra a melhor e, se a pessoa disser que não ajudou, oferece até duas alternativas que também passaram de 3 pontos.
+`buscar()` devolve uma lista de tuplas `(pontos, orientacao)` da maior para a menor. O assistente mostra a melhor orientação completa e, logo abaixo, até duas alternativas (título, confiança e pontos) que também passaram de 3 pontos. Se a pessoa disser que a melhor não ajudou, ela pode abrir uma das alternativas pelo número.
 
 **Exemplo real:** "Autista tem isenção de IPI na compra do carro?" vira " autista tem isencao de ipi na compra do carro ". Para a orientação "Pedir isenção de IPI e IOF na compra do carro":
 

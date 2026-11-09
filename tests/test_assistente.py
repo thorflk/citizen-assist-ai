@@ -190,6 +190,18 @@ class TestAtendimento(unittest.TestCase):
         self.rodar(["1", "isenção no carro ou passe livre", "n", "1", "s", "0", "0", "0"])
         self.assertTrue(self.assistente.historico[0]["ajudou"])
 
+    def test_alternativas_aparecem_mesmo_quando_ajudou(self):
+        # o enunciado pede a melhor orientação e até duas alternativas em toda resposta
+        saida = []
+        with mock.patch("builtins.input", side_effect=["1", "isenção no carro ou passe livre", "s",
+                                                       "0", "0", "0"]), \
+                mock.patch("builtins.print", side_effect=lambda *a, **k: saida.append(" ".join(map(str, a)))):
+            self.assistente.iniciar()
+        texto = "\n".join(saida)
+        self.assertIn("Outras orientações que podem servir:", texto)
+        self.assertIn("  1 - ", texto)
+        self.assertTrue(self.assistente.historico[0]["ajudou"])
+
     def test_historico_corrompido_nao_trava(self):
         caminho = os.path.join(self.pasta, "historico.json")
         with open(caminho, "w", encoding="utf-8") as f:

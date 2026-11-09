@@ -182,14 +182,19 @@ class Assistente:
             print(f"\nConfiança da resposta: {nivel} ({pontos} pontos)")
             melhor.exibir()
 
-            # até duas alternativas que também passaram do limite mínimo
+            # até duas alternativas que também passaram do limite mínimo, sempre mostradas
             alternativas = [(p, o) for p, o in resultados[1:3] if confianca(p) is not None]
+            if alternativas:
+                print("Outras orientações que podem servir:")
+                for numero, (p, orientacao) in enumerate(alternativas, start=1):
+                    print(f"  {numero} - {orientacao.titulo} (confiança {confianca(p)}, {p} pontos)")
+                print()
             escolhida = melhor
             ajudou = ler_sim_nao("Essa orientação respondeu sua dúvida? (s/n): ")
             if not ajudou and alternativas:
-                print("Talvez seja uma destas:")
+                print("Quer ver uma das outras orientações?")
                 for numero, (p, orientacao) in enumerate(alternativas, start=1):
-                    print(f"{numero} - {orientacao.titulo} ({p} pontos)")
+                    print(f"{numero} - {orientacao.titulo}")
                 print("0 - Nenhuma destas")
                 opcao = ler_opcao("Escolha: ", 0, len(alternativas))
                 if opcao > 0:
