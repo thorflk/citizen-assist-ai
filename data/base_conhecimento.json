@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "categoria": "Transporte",
+    "titulo": "Pedir o Bilhete Único Especial da Pessoa com Deficiência",
+    "palavras_chave": [
+      "bilhete unico especial",
+      "bilhete especial",
+      "bilhete unico",
+      "onibus de graca",
+      "gratuidade no onibus",
+      "metro de graca",
+      "cadeirante paga onibus",
+      "renovar bilhete",
+      "segunda via do bilhete"
+    ],
+    "resposta": "Cartão que dá gratuidade nos ônibus, trens e metrô para pessoas com deficiência que moram na cidade de São Paulo, na Região Metropolitana, em Campo Limpo Paulista, Várzea Paulista ou Jundiaí. O pedido é feito com um formulário preenchido pelo médico. Prazo: A SPTrans analisa o pedido em até 20 dias depois do envio do formulário e de todos os documentos, e pode aprovar, reprovar, pedir documentos ou chamar para uma auditoria médica presencial. Se aprovado, o cartão chega em até 20 dias.",
+    "documentos": [
+      "Documento pessoal com foto (RG ou CIN, CNH, CIE, passaporte ou outro)",
+      "CPF, em cópia simples, se o número não estiver no documento com foto",
+      "Comprovante de residência dos últimos 6 meses, como conta de telefone, luz ou gás. Pode estar no nome de outra pessoa, mas precisa ser do endereço onde a pessoa mora, porque o cartão é enviado para lá",
+      "Formulário de Solicitação da SPTrans ou Formulário para emissão de Laudo Permanente, preenchido pelo médico",
+      "Exames, laudos, receitas e outros documentos que comprovem a patologia, se forem exigidos para o CID na busca de CID da SPTrans"
+    ],
+    "onde": "Envie as cópias digitalizadas pelo Site de Atendimento da SPTrans ou leve a documentação a um posto de atendimento do Bilhete Único Especial. Link: https://bilheteunico.sptrans.com.br/especial/pessoa-com-deficiencia/",
+    "fonte": "https://bilheteunico.sptrans.com.br/especial/pessoa-com-deficiencia/",
+    "verificado_em": "2026-11-09",
+    "limitacao": "Não vejo o seu pedido nem decido por você. Quem analisa é a SPTrans, pelas regras da Lei Municipal 11.250/1992 e das Portarias SMT 50/2019, SMT/SMS 7/2020 e SMS 22/2024. A lista de patologias aceitas e os exames de cada uma estão na busca de CID da SPTrans. A validade do cartão depende do CID apresentado."
+  },
+  {
+    "id": 2,
+    "categoria": "Transporte",
+    "titulo": "Pedir o Atende+, transporte porta a porta gratuito da Prefeitura",
+    "palavras_chave": [
+      "atende",
+      "atende+",
+      "van adaptada",
+      "porta a porta",
+      "transporte adaptado",
+      "ficha de avaliacao medica",
+      "surdocegueira",
+      "van da prefeitura"
+    ],
+    "resposta": "Van ou táxi adaptado que busca em casa e leva ao compromisso, de graça, para pessoas com deficiência física de alto grau de severidade e dependência, autismo ou surdocegueira, que não conseguem usar ônibus, metrô e trem sozinhas. Só para quem é cadastrado na SPTrans, com viagens agendadas, dentro da cidade de São Paulo. Prazo: A SPTrans comunica o resultado do cadastro em até 30 dias. Depois, a viagem depende de vaga nas rotas: não há prazo, não segue a ordem de inscrição e o encaixe é refeito todo mês.",
+    "documentos": [
+      "Ficha de Avaliação Médica (FAM) do Atende, preenchida por completo, sem rasuras, carimbada, assinada e datada pelo médico",
+      "RG, CPF ou certidão de nascimento, original e cópia simples",
+      "Comprovante de residência atualizado, com CEP",
+      "Exames que comprovem a deficiência, se for o caso. Para surdocegueira: audiometria ou BERA",
+      "Se já souber: nome e endereço da instituição, dias e horários dos compromissos, para a programação das viagens"
+    ],
+    "onde": "Num posto de atendimento da SPTrans: nas unidades Descomplica SP, com agendamento no site do Descomplica, ou no Posto Central (Rua Boa Vista, 274, mezanino, Centro), sem agendamento, das 8h às 17h, de segunda a sexta, exceto feriados. Informações pela Central 156. Link: https://www.sptrans.com.br/encontrar-posto",
+    "fonte": "https://www.sptrans.com.br/media/1392/regulamento_atende-nov_17.pdf",
+    "verificado_em": "2026-11-09",
+    "limitacao": "Não vejo o seu cadastro nem decido por você. Quem analisa é a SPTrans, pela Lei Municipal 16.337/2015 e pelo regulamento do Atende+ (a versão que conferimos é de novembro de 2017). Ter cadastro não garante viagem: depende de vaga nas rotas. Origem e destino precisam ficar dentro da cidade de São Paulo."
+  },
+  {
+    "id": 3,
+    "categoria": "Transporte",
+    "titulo": "Pedir o Passe Livre Interestadual (viagem gratuita entre estados)",
+    "palavras_chave": [
+      "passe livre",
+      "passe livre interestadual",
+      "antt",
+      "outro estado",
+      "viagem interestadual",
+      "onibus interestadual",
+      "passagem gratuita",
+      "viajar de graca"
+    ],
+    "resposta": "Gratuidade em ônibus, trem e barco entre estados para a pessoa com deficiência de família com renda de até 1 salário mínimo por pessoa. O pedido é feito pela internet, no site do Passe Livre da ANTT, com a conta gov.br, e a credencial sai na hora. O acompanhante também viaja de graça quando o médico indica. Prazo: Pela internet, o pedido é aprovado ou negado na hora, e a credencial digital sai no fim do pedido. Pelos Correios, a ANTT analisa em até 30 dias, prorrogáveis por mais 30.",
+    "documentos": [
+      "Conta gov.br e CPF da pessoa com deficiência",
+      "Uma destas situações: receber o BPC (código B87); ou estar no Cadastro Único, com renda por pessoa de até 1 salário mínimo, e constar no Cadastro-Inclusão; ou estar no Cadastro Único, com essa renda, e ter o atestado de deficiência registrado pelo médico no site do Passe Livre",
+      "Acompanhante: só um documento de identificação, mostrado na hora de emitir a passagem"
+    ],
+    "onde": "Pela internet, no site do Passe Livre da ANTT (passelivre.antt.gov.br), com a conta gov.br. Também dá para pedir pelos Correios, seguindo as instruções da ANTT. Link: https://www.gov.br/pt-br/servicos/obter-passe-livre-interestadual-digital",
+    "fonte": "https://www.gov.br/pt-br/servicos/obter-passe-livre-interestadual-digital",
+    "verificado_em": "2026-11-09",
+    "limitacao": "Não vejo o seu pedido nem decido por você. Quem analisa é a ANTT, pela Lei 8.899/1994. A renda exigida é de até 1 salário mínimo por pessoa da família, e a triagem só pergunta faixas até meio salário mínimo: confira pelo Cadastro Único. Vale para viagens entre estados, não para ônibus da cidade."
+  },
+  {
+    "id": 4,
+    "categoria": "Benefícios",
+    "titulo": "Pedir o BPC (Benefício de Prestação Continuada) para pessoa com deficiência",
+    "palavras_chave": [
+      "bpc",
+      "loas",
+      "beneficio de prestacao continuada",
+      "beneficio assistencial",
+      "salario minimo",
+      "salario do governo",
+      "meu inss",
+      "inss",
+      "baixa renda",
+      "pericia"
+    ],
+    "resposta": "Um salário mínimo por mês para a pessoa com deficiência de família de baixa renda: a renda por pessoa da família precisa ser de até 1/4 do salário mínimo, calculada com o Cadastro Único. Não precisa ter contribuído para o INSS. O pedido é feito pelo Meu INSS, sem ir a uma agência. Prazo: Pelo gov.br, a resposta sai em média em 45 dias corridos, e é vista no Meu INSS, em Consultar Pedidos.",
+    "documentos": [
+      "Documento de identificação (RG, CIN, CNH ou carteira de trabalho) e CPF da pessoa com deficiência e de todas as pessoas da família que moram na mesma casa",
+      "Documentos que comprovem a deficiência, como atestados médicos e exames",
+      "Se houver procurador ou representante legal: documento com foto e CPF dele, e a procuração (modelo do INSS ou pública) ou o termo de tutela, curatela ou guarda",
+      "No dia da perícia médica: documento de identificação com foto, em qualquer idade"
+    ],
+    "onde": "Pelo Meu INSS, no site ou no aplicativo, com a conta gov.br. Se o sistema estiver fora do ar, pelo telefone 135. Link: https://www.gov.br/pt-br/servicos/solicitar-beneficio-assistencial-a-pessoa-com-deficiencia",
+    "fonte": "https://www.gov.br/inss/pt-br/direitos-e-deveres/beneficios-assistenciais/beneficio-assistencial-a-pessoa-com-deficiencia-bpc-loas",
+    "verificado_em": "2026-11-09",
+    "limitacao": "Não vejo o seu pedido nem decido por você. Quem analisa é o INSS, com a avaliação social e a perícia médica. A renda precisa ser de até 1/4 do salário mínimo por pessoa, calculada com o Cadastro Único. Para a lei, a família é quem pede, o cônjuge ou companheiro, os pais (ou a madrasta ou o padrasto), os irmãos solteiros, os filhos e enteados solteiros e os menores tutelados, desde que morem na mesma casa. A deficiência precisa durar ao menos 2 anos."
+  },
+  {
+    "id": 5,
+    "categoria": "Carro e direção",
+    "titulo": "Pedir isenção de IPI e IOF na compra do carro",
+    "palavras_chave": [
+      "isencao",
+      "ipi",
+      "iof",
+      "comprar carro",
+      "compra de carro",
+      "carro adaptado",
+      "desconto no carro",
+      "sisen",
+      "receita federal"
+    ],
+    "resposta": "Desconto de impostos federais na compra de carro novo para pessoa com deficiência física, visual, mental severa ou profunda, ou autista, mesmo menor de 18 anos ou sem carteira de motorista. O IOF do financiamento só é isento para deficiência física que impede dirigir carro comum. O pedido é feito no sistema SISEN da Receita Federal, com a conta gov.br. Prazo: O resultado fica disponível no SISEN 72 horas depois do envio. Se demorar mais, o pedido pode ter caído em análise e a Receita pode pedir documentos.",
+    "documentos": [
+      "Conta gov.br (bronze, prata ou ouro) de quem pede, ou do representante legal",
+      "Laudo de avaliação no modelo da Receita (Instrução Normativa RFB 1.769/2017), emitido pelo Detran ou por entidade conveniada ao SUS. Para o IOF, só vale o laudo do Detran do estado onde a pessoa mora",
+      "Para deficiência física: carteira de motorista com restrição compatível, se a pessoa dirige",
+      "Se a pessoa não dirige: dados de pelo menos 1 condutor habilitado",
+      "Representante legal: CPF da pessoa representada e o da mãe dela, e o número do processo de curatela, se houver"
+    ],
+    "onde": "No SISEN, o Sistema de Concessão Eletrônica de Isenção de IPI/IOF da Receita Federal, pela internet, com a conta gov.br. Link: https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/isencao-para-compra-de-carro",
+    "fonte": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/perguntas-frequentes/isencao-para-compra-de-carro",
+    "verificado_em": "2026-11-09",
+    "limitacao": "Não vejo o seu pedido nem decido por você. Quem analisa é a Receita Federal, pelas Leis 8.989/1995 (IPI) e 8.383/1991 (IOF). Visão monocular sozinha não dá isenção de IPI. Esta ficha não trata do IPVA nem do ICMS, que são do estado."
+  }
+]
