@@ -9,7 +9,7 @@ Global Solution 2026.2 (CitizenTech), disciplina **Pensamento Computacional e Au
 | Nome | RM |
 |---|---|
 | Thor Ferreira Camargo | 569543 |
-| Gabriel Botelho Ronão | 570589 |
+| Gabriel Botelho Romão | 570589 |
 
 ## Público e problema
 
