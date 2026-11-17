@@ -105,6 +105,12 @@ class TestBusca(unittest.TestCase):
         self.assertEqual(confianca(3), "MÉDIA")
         self.assertIsNone(confianca(2))
 
+    def test_pergunta_do_teste_com_usuarios(self):
+        # dúvida sem solução no teste com usuários; virou palavra-chave da orientação 13
+        resultados = self.base.buscar("ônibus da SPTrans não parou no ponto, como faço denúncia?")
+        self.assertEqual(resultados[0][1].id, 13)
+        self.assertEqual(confianca(resultados[0][0]), "ALTA")
+
     def test_nao_encontra(self):
         self.assertEqual(self.base.buscar("previsão do tempo amanhã"), [])
 

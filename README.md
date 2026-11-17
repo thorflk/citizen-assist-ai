@@ -30,7 +30,7 @@ Precisa do **Python 3.8 ou mais novo**. Não usa nenhuma biblioteca externa.
 python main.py
 ```
 
-Testes automáticos (35 testes, também sem bibliotecas externas):
+Testes automáticos (36 testes, também sem bibliotecas externas):
 
 ```bash
 python -m unittest discover tests
@@ -155,21 +155,24 @@ Os comprovantes de cada fonte (texto baixado ou prints) ficam no repositório do
 
 ## Teste com usuários
 
-_(a preencher depois do teste: pelo menos 3 pessoas de fora da equipe e 10 atendimentos. Sem nomes nem dados das pessoas.)_
+Teste feito em 17/11/2026 com 3 pessoas de fora da equipe, cada uma usando o programa numa sessão própria. Os números saem da opção de indicadores do menu, calculados a partir de `data/historico.json` e `data/avaliacoes.json`. Não guardamos nomes nem dados das pessoas.
 
 | Indicador | Resultado |
 |---|---|
-| Pessoas que testaram | |
-| Atendimentos | |
-| Resposta encontrada | |
-| Taxa de acerto (ajudou) | |
-| Tempo médio para encontrar | |
-| Tentativas por atendimento | |
-| Facilidade de uso (1 a 5) | |
+| Pessoas que testaram | 3 |
+| Atendimentos | 18 (9 por pergunta digitada, 9 pelo menu de categorias) |
+| Resposta encontrada | 88,9% (16 de 18) |
+| Taxa de acerto (ajudou) | 88,9% (16 de 18) |
+| Tempo médio para encontrar | 11,2 s |
+| Tentativas por atendimento | 1,1 |
+| Facilidade de uso (1 a 5) | 4,7 (notas 5, 4 e 5) |
 
 **Dúvidas sem solução:**
 
-**Melhoria feita a partir do teste:**
+- "Onde consigo cadeira de rodas gratuita pelo SUS?": o tema não está na base. Fica como próxima orientação a pesquisar e conferir na fonte oficial.
+- "ônibus da SPTrans não parou no ponto, como faço denúncia?": a orientação existe (reclamar de motorista de ônibus pelo SP156), mas a busca não reconheceu a frase.
+
+**Melhoria feita a partir do teste:** acrescentamos as palavras-chave "nao parou", "passou direto" e "denuncia" à orientação de reclamação de ônibus da SPTrans (em `data/base_conhecimento.json` e `ferramentas/gerar_base.py`). Agora a pergunta que tinha ficado sem resposta encontra essa orientação com confiança ALTA. Criamos o teste automático `test_pergunta_do_teste_com_usuarios` para garantir isso.
 
 ## Limitações
 
