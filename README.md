@@ -2,7 +2,7 @@
 
 Assistente em Python, executado no terminal, que orienta **pessoas com deficiência e suas famílias em São Paulo**, começando por quem usa cadeira de rodas, sobre direitos e serviços de transporte, benefícios, carro e direção, calçadas e canais da Prefeitura (14 orientações em 5 categorias). Toda resposta mostra a fonte oficial, a data em que a equipe conferiu a informação e o aviso de que **este assistente não é um canal oficial**.
 
-Global Solution 2026.2 (CitizenTech), disciplina **Pensamento Computacional e Automação com Python**, turma 1CC, FIAP. É a versão em Python do nosso projeto da GS, o **Mapiii · o mapa dos seus direitos** ([repositório](https://github.com/GabrielRoma0/mapiii-assistente)).
+Global Solution 2026.2 (CitizenTech), disciplina **Pensamento Computacional e Automação com Python**, turma 1CCR, FIAP. É a versão em Python do nosso projeto da GS, o **Mapiii · o mapa dos seus direitos** ([repositório](https://github.com/GabrielRoma0/mapiii-assistente)).
 
 ## Integrantes
 
