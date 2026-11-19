@@ -185,4 +185,4 @@ Teste feito em 17/11/2026 com 3 pessoas de fora da equipe, cada uma usando o pro
 
 ## Vídeo técnico
 
-_(a preencher: link do YouTube, não listado)_
+https://www.youtube.com/watch?v=dOlUhTP5_xA (YouTube, não listado, 5min14s). Gabriel explica as partes 1 e 2 (equipe, problema e JSON) e Thor as partes 3 a 8 (classes, busca, execução, alteração ao vivo, histórico e indicadores, decisão técnica e limitação).
